@@ -1,0 +1,481 @@
+/*Proporções*/
+
+/*dispositivos móveis*/
+
+@media (max-width: 600px) {
+    * {
+        max-width: 100vw;
+    }
+
+    #navbar {
+        width: 100vw;
+        float: none;
+    }
+
+    .navbar-link {
+        display: block;
+        padding: 16px 15px;
+        color: var(--white);
+        text-decoration: none;
+        font-size: 0.7rem;
+        margin-left: 15px;
+        margin-right: 15px;
+
+    }
+
+    section {
+        width: 100%;
+        max-width: 300px;
+        margin: 0 auto;
+        max-height: 1000px;
+        height: 1000px;
+    }
+
+    #Home {
+        height: 600px;
+        max-height: 600px;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    .fancy {
+        margin-top: 100px;
+
+    }
+
+    .photo-mydog {
+        width: 200px;
+        height: 200px;
+    }
+
+    .photo-mydog:hover,
+    .hover-point:hover,
+    .box:hover,
+    .box-contents:hover {
+        animation: none;
+
+    }
+
+    .photo-mydog,
+    .hover-point,
+    .box,
+    .box-contents {
+        margin: 0;
+        display: block;
+        z-index: 0;
+    }
+
+    .photo-container {
+        display: block;
+        float: left;
+        margin: 0 auto;
+        width: 10px;
+        padding-top: 80px;
+    }
+
+    #About {
+        height: 750px;
+    }
+
+    .subtit {
+        font-size: 1rem;
+    }
+
+    .about-text {
+        font-size: 0.8rem;
+    }
+
+    .about-container {
+        width: 300px;
+        height: 400px;
+    }
+
+    .know-img-container {
+        padding: 10px;
+
+
+    }
+
+    .know-img {
+        width: 35px;
+        height: 35px;
+        margin-top: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
+        filter: none;
+
+    }
+
+    .project-content {
+        width: 40vw;
+        height: 100px;
+        margin: 0 auto;
+    }
+
+    .subit-proj-container {
+        padding-top: 300px;
+     }
+
+    .project-content:hover {
+        border-radius: 0%;
+        filter: grayscale(0);
+        transition: 1s ease-in-out;
+        cursor: no-drop;
+    }
+
+    .project-img-container:hover {
+        background: none;
+    }
+
+    #Contact-foot {
+        margin: 0 auto;
+        float: left;
+        height: 50px;
+        background: var(--main-color-bg);
+    }
+
+    .link-contact {
+        text-decoration: none;
+        color: var(--white);
+        font-size: 15px;
+        padding-right: 20px;
+        float: left;
+
+    }
+
+    .link-contact-img {
+        width: 30px;
+        height: 30px;
+
+
+    }
+}
+
+/*iPads, tablets*/
+
+@media (max-width: 768px) and (min-width: 601px) {
+    * {
+        max-width: 100vw;
+    }
+
+    #navbar {
+        width: 100vw;
+        float: none;
+    }
+
+    .navbar-link {
+        display: block;
+        padding: 16px 15px;
+        color: var(--white);
+        text-decoration: none;
+        font-size: 0.7rem;
+        margin-left: 15px;
+        margin-right: 15px;
+
+    }
+
+    section {
+        width: 100%;
+        max-width: 300px;
+        margin: 0 auto;
+        max-height: 1000px;
+        height: 1000px;
+    }
+
+    #Home {
+        height: 600px;
+        max-height: 600px;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    .fancy {
+        margin-top: 100px;
+
+    }
+
+    .photo-mydog {
+        width: 200px;
+        height: 200px;
+    }
+
+    .photo-mydog:hover,
+    .hover-point:hover,
+    .box:hover,
+    .box-contents:hover {
+        animation: none;
+
+    }
+
+    .photo-mydog,
+    .hover-point,
+    .box,
+    .box-contents {
+        margin: 0;
+        display: block;
+        z-index: 0;
+    }
+
+    .photo-container {
+        display: block;
+        float: left;
+        margin: 0 auto;
+        width: 10px;
+        padding-top: 80px;
+    }
+
+    #About {
+        height: 100vh;
+    }
+
+    .subtit {
+        font-size: 1.5rem;
+    }
+
+    .about-text {
+        font-size: 0.9rem;
+    }
+
+    .about-container {
+        width: 300px;
+        height: 500px;
+    }
+
+    .know-img-container {
+        padding: 20px;
+
+
+    }
+
+    .know-img {
+        width: 35px;
+        height: 35px;
+        margin-top: 2px;
+        margin-left: 8px;
+        margin-right: 8px;
+        filter: none;
+
+    }
+
+    .link-img-container {
+
+        padding-top: 400px;
+    }
+    #Projects {
+        height: 820px;
+    }
+    .project-content {
+        width: 48vw;
+        margin: 0 auto;
+        height: 100px;
+    }
+
+    .project-content:hover {
+        border-radius: 0%;
+        filter: grayscale(0);
+        transition: 1s ease-in-out;
+        cursor: no-drop;
+    }
+
+    .project-img-container:hover {
+        background: none;
+    }
+
+    #Contact-foot {
+        margin: 0 auto;
+        float: left;
+        height: 50px;
+        background: var(--main-color-bg);
+    }
+
+    .link-contact {
+        text-decoration: none;
+        color: var(--white);
+        font-size: 15px;
+        padding-right: 20px;
+        float: left;
+
+    }
+
+    .link-contact-img {
+        width: 30px;
+        height: 30px;
+
+
+    }
+    .subit-proj {
+        padding-top: 0px;
+    }
+
+}
+
+/*telas pequenas, laptops*/
+
+@media (max-width: 1024px) and (min-width: 769px) {
+    * {
+        max-width: 100vw;
+    }
+
+    #navbar {
+        width: 100vw;
+        float: none;
+    }
+
+    .navbar-link {
+        display: block;
+        padding: 16px 15px;
+        color: var(--white);
+        text-decoration: none;
+        font-size: 1.5rem;
+        margin-left: 15px;
+        margin-right: 15px;
+
+    }
+
+    section {
+        width: 100%;
+        max-width: 300px;
+        margin: 0 auto;
+        max-height: 1000px;
+        height: 1000px;
+    }
+
+    #Home {
+        height: 600px;
+        max-height: 600px;
+    }
+
+    h1 {
+        font-size: 3rem;
+    }
+
+    .fancy {
+        margin-top: 100px;
+
+    }
+
+    .photo-mydog {
+        width: 200px;
+        height: 200px;
+    }
+
+    .photo-mydog:hover,
+    .hover-point:hover,
+    .box:hover,
+    .box-contents:hover {
+        animation: none;
+
+    }
+
+    .photo-mydog,
+    .hover-point,
+    .box,
+    .box-contents {
+        margin: 0;
+        display: block;
+        z-index: 0;
+    }
+
+    .photo-container {
+        display: block;
+        float: left;
+        margin: 0 auto;
+        width: 10px;
+        padding-top: 80px;
+    }
+
+    #About {
+        height: 100vh;
+    }
+
+    .subtit {
+        font-size: 2rem;
+    }
+
+    .about-text {
+        font-size: 1.1rem;
+    }
+
+    .about-container {
+        width: 400px;
+        height: 500px;
+    }
+
+    .know-img-container {
+        padding: 20px;
+
+
+    }
+
+    .know-img {
+        width: 60px;
+        height: 60px;
+        margin-top: 2px;
+        margin-left: 8px;
+        margin-right: 8px;
+        border-radius: 15px;
+        filter: none;
+
+    }
+
+    .link-img-container {
+
+        padding-top: 400px;
+    }
+    #Projects {
+        height: 820px;
+    }
+    .project-content {
+        width: 49vw;
+        height: 200px;
+        float:left;
+       
+    }
+
+    .project-content:hover {
+        border-radius: 0%;
+        filter: grayscale(0);
+        transition: 1s ease-in-out;
+        cursor: no-drop;
+    }
+
+    .project-img-container:hover {
+        background: none;
+    }
+
+    #Contact-foot {
+        margin: 0 auto;
+        float: left;
+        height: 50px;
+        background: var(--main-color-bg);
+    }
+
+    .link-contact {
+        text-decoration: none;
+        color: var(--white);
+        font-size: 25px;
+        padding-right: 20px;
+        float: left;
+
+    }
+
+    .link-contact-img {
+        width: 50px;
+        height: 50px;
+    }
+}
+
+/*desktops, telas grandes*/
+@media (max-width: 1200px) and (min-width: 1025px) {
+
+    .project-content {
+        width: 10vw;
+        height: 200px;
+    }
+
+
+}
